@@ -59,7 +59,7 @@ try:
     for x in range(DIB_pointer.biSizeImage):
         buffer.write(pack('>B', array_byte[x])) 
     
-    #Convertimos el buffer de BITMAP a PNG
+    #Convertir el buffer de BITMAP a PNG y crear archivo
     img = Image.open(buffer)
     name = "captura_"+time.strftime("%d-%m-%y")+"_"+time.strftime("%H-%M-%S")+".png"
     img.save(name, "png")
