@@ -1,4 +1,6 @@
-Descripción
+#CAPTURA DE PANTALLA (windows API)
+
+**Descripción**
 
 Al pulsar la tecla "Imppnt" captura una imagen de pantalla y la almacena en el portapapeles en formato BITMAP. El script hará todo este proceso y dará como resultado la una imagen de la captura de pantalla en formato PNG.
 
